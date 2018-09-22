@@ -62,7 +62,7 @@ function initialize() {
 
     for (let i = 0; i < celebrities.length; i++) {
         divEl.innerHTML += `<div class='celebrity-img-div' 
-        style="background-image: url(images/${celebrities[i].imgURL});" onclick="changeDetails(${i})">
+        style="background-image: url(${celebrities[i].imgURL});" onclick="changeDetails(${i})">
         <p class="celebrity-name"> ${celebrities[i].name}</p>
         </div>`;
     }
@@ -71,7 +71,7 @@ function initialize() {
 function changeDetails(indexNum) {
     document.querySelector(".celebrity").innerHTML = celebrities[indexNum].name;
     document.querySelector(".celebrity-title").innerHTML = celebrities[indexNum].title;    
-    document.querySelector(".celebrity-img").style = `background-image: url(images/${celebrities[indexNum].imgURL});`
+    document.querySelector(".celebrity-img").style = `background-image: url(${celebrities[indexNum].imgURL});`
     document.querySelector(".celebrity-quote").innerHTML = celebrities[indexNum].quote;
     document.querySelector(".read-more-link").href = celebrities[indexNum].wikiLink;        
 
