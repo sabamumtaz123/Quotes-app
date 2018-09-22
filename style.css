@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body, html {
+    height: 100%
+}
+
+.body-container {
+    background-image: url('images/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3cdcd;
+    padding: 35px 0;
+    font-size: 4em;
+    font-family: 'Lobster', cursive;
+    margin: 0;
+}
+
+.celebrities-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+    border-top: 3px dotted #e5e5e5;
+	border-bottom: 3px dotted #e5e5e5;
+	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
+	margin-bottom: 1em;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: whitesmoke;
+}
+
+.celebrity-img-div {
+    height: 200px;
+    width: 200px;
+    min-width: 180px;
+    margin: 0.5em;
+    background-size: cover;
+    background-position: center;
+    -webkit-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 19px 3px rgba(0,0,0,0.75);
+}
+
+.celebrities-list:last-child {
+    margin-right: 8px;
+}
+
+.celebrity-img-div:hover {
+    cursor: pointer;
+}
+
+.celebrity-name {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.celebrity-img-div:hover > .celebrity-name {
+    display: flex;
+}
+
+.celebrity-details-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.celebrity-detail {
+    text-align: center;
+}
+
+.celebrity-img {
+    height: 80px;
+    width: 100%;
+    background-color: gainsboro;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.celebrity-quote {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+
+}
+
+
