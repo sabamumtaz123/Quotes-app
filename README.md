@@ -1,17 +1,17 @@
-##PROJECT TITLE:
-*Quote App
+## PROJECT TITLE:
+* Quote App
 
-##LANGUAGE USES:
-*HTML
-*CSS
-*JAVASCRIPT
+## LANGUAGE USES:
+* HTML
+* CSS
+* JAVASCRIPT
 
-##LINKS:
-*Bootstrap
-*jquery
-*Google Fonts
-*Font Awesome
+## LINKS:
+* Bootstrap
+* jquery
+* Google Fonts
+* Font Awesome
 
-# Page Link:
+#Page Link:
 https://sabamumtaz123.github.io/Quotes-app/
 
